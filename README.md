@@ -1,2 +1,2 @@
-# hotelmanagement
-hghjhjkhjhj
+# Hotel Management
+Mini Project
