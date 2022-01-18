@@ -156,7 +156,7 @@ if(!isset($_SESSION["user"]))
 					<div class="col-md-8 col-sm-8">
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                           Booking Conformation
+                           Booking Confirmation
                         </div>
                         <div class="panel-body">
 							
@@ -246,10 +246,10 @@ if(!isset($_SESSION["user"]))
                         <div class="panel-footer">
                             <form method="post">
 										<div class="form-group">
-														<label>Select the Conformation</label>
+														<label>Select the Confirmation</label>
 														<select name="conf"class="form-control">
 															<option value selected>	</option>
-															<option value="Conform">Conform</option>
+															<option value="Conform">Confirm</option>
 															
 															
 														</select>

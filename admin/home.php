@@ -227,7 +227,7 @@ if(!isset($_SESSION["user"]))
 								}
 						
 								?>
-                                <div class="panel panel-info">
+                                <!-- <div class="panel panel-info">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
@@ -239,7 +239,7 @@ if(!isset($_SESSION["user"]))
                                         </h4>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
-                                        <div class="panel-body">
+                                        <div class="panel-body"> 
 										<?php
 										$msql = "SELECT * FROM `roombook`";
 										$mre = mysqli_query($con,$msql);
@@ -292,7 +292,7 @@ if(!isset($_SESSION["user"]))
 								
 								}
 						
-								?>
+								?> -->
                                 <div class="panel panel-danger">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">

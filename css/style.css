@@ -467,7 +467,7 @@ li.menu__item:nth-child(6) {
 /*-- //banner-text --*/
 /*-- banner-top --*/
 .w3layouts-banner-top{
-    background: url(../images/1.jpg) no-repeat 0px 0px;
+    background: url(../images/pic1.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -475,7 +475,7 @@ li.menu__item:nth-child(6) {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top1{
-	background: url(../images/2.jpg) no-repeat 0px 0px;
+	background: url(../images/pic2.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
@@ -483,7 +483,7 @@ li.menu__item:nth-child(6) {
 	-moz-background-size: cover;
 }
 .w3layouts-banner-top2{
-	background: url(../images/3.jpg) no-repeat 0px 0px;
+	background: url(../images/pic3.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
 	-moz-background-size: cover;
