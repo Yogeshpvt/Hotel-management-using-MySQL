@@ -1,2 +1,2 @@
 # Hotel Management
-Mini Project
+This project is created using VSCode
