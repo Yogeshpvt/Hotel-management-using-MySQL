@@ -156,7 +156,7 @@ include('db.php');
 									<div class="modal-header">
 										<button type="button" class="close" data-dismiss="modal">&times;</button>
 										<h4>BAY  <span>RESORTS</span></h4>
-										<img src="images/1.jpg" alt=" " class="img-responsive">
+										<img src="images/pic1.jpg" alt=" " class="img-responsive">
 										<h5>We know what you love</h5>
 										<p>Providing guests unique and enchanting views from their rooms with its exceptional amenities, makes Star Hotel one of bests in its kind.Try our food menu, awesome services and friendly staff while you are here.</p>
 									</div>
@@ -242,7 +242,7 @@ include('db.php');
 					<i class="fa fa-credit-card" aria-hidden="true"></i>
 			 		<h4>Stay First, Pay After! </h4>
 			 		<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>Decorated room, proper air conditioned</p>
+					<p><i class="fa fa-check" aria-hidden="true"></i>Decorated Rooms, Proper Air Conditioned</p>
 					<p><i class="fa fa-check" aria-hidden="true"></i>Private balcony</p>
 			 		
 			 	</div>
@@ -252,8 +252,8 @@ include('db.php');
 					<i class="fa fa-clock-o" aria-hidden="true"></i>
 			 		<h4>24 Hour Restaurant</h4>
 			 		<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>24 hours room service</p>
-					<p><i class="fa fa-check" aria-hidden="true"></i>24-hour Concierge service</p>
+					<p><i class="fa fa-check" aria-hidden="true"></i>24 hours Room Service</p>
+					<p><i class="fa fa-check" aria-hidden="true"></i>24-hour Customer Service</p>
 			 	</div>
 			 </div>
 			<div class="clearfix"> </div>

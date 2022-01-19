@@ -156,7 +156,7 @@ if(!isset($_SESSION["user"]))
 					<div class="col-md-8 col-sm-8">
                     <div class="panel panel-info">
                         <div class="panel-heading">
-                           Booking Conformation
+                           Booking Confirmation
                         </div>
                         <div class="panel-body">
 							
@@ -246,15 +246,15 @@ if(!isset($_SESSION["user"]))
                         <div class="panel-footer">
                             <form method="post">
 										<div class="form-group">
-														<label>Select the Conformation</label>
+														<label>Select the Confirmation</label>
 														<select name="conf"class="form-control">
 															<option value selected>	</option>
-															<option value="Conform">Conform</option>
+															<option value="Confirm">Confirm</option>
 															
 															
 														</select>
 										 </div>
-							<input type="submit" name="co" value="Conform" class="btn btn-success">
+							<input type="submit" name="co" value="Confirm" class="btn btn-success">
 							
 							</form>
                         </div>
@@ -462,7 +462,7 @@ if(!isset($_SESSION["user"]))
 							
 							 
 							
-							if($st=="Conform")
+							if($st=="Confirm")
 							{
 									$urb = "UPDATE `roombook` SET `stat`='$st' WHERE id = '$id'";
 									
@@ -486,7 +486,7 @@ if(!isset($_SESSION["user"]))
 										
 										else if( mysqli_query($con,$urb))
 											{	
-												//echo "<script type='text/javascript'> alert('Guest Room booking is conform')</script>";
+												//echo "<script type='text/javascript'> alert('Guest Room booking is confirm')</script>";
 												//echo "<script type='text/javascript'> window.location='home.php'</script>";
 												 $type_of_room = 0;       
 														if($troom=="Superior Room")
@@ -563,7 +563,7 @@ if(!isset($_SESSION["user"]))
 															$rpsql = "UPDATE `room` SET `place`='$notfree',`cusid`='$id' where bedding ='$bed' and type='$troom' ";
 															if(mysqli_query($con,$rpsql))
 															{
-															echo "<script type='text/javascript'> alert('Booking Conform')</script>";
+															echo "<script type='text/javascript'> alert('Booking Confirm')</script>";
 															echo "<script type='text/javascript'> window.location='roombook.php'</script>";
 															}
 															

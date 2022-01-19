@@ -111,7 +111,7 @@ if(!isset($_SESSION["user"]))
 								$new = $row['stat'];
 								$cin = $row['cin'];
 								$id = $row['id'];
-								if($new=="Not Conform")
+								if($new=="Not Confirm")
 								{
 									$c = $c + 1;
 									
@@ -176,7 +176,7 @@ if(!isset($_SESSION["user"]))
 									while($trow=mysqli_fetch_array($tre) )
 									{	
 										$co =$trow['stat']; 
-										if($co=="Not Conform")
+										if($co=="Not Confirm")
 										{
 											echo"<tr>
 												<th>".$trow['id']."</th>
@@ -215,7 +215,7 @@ if(!isset($_SESSION["user"]))
 								while($row=mysqli_fetch_array($rre) )
 								{		
 										$br = $row['stat'];
-										if($br=="Conform")
+										if($br=="Confirm")
 										{
 											$r = $r + 1;
 											
@@ -227,7 +227,7 @@ if(!isset($_SESSION["user"]))
 								}
 						
 								?>
-                                <div class="panel panel-info">
+                                <!-- <div class="panel panel-info">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
@@ -239,7 +239,7 @@ if(!isset($_SESSION["user"]))
                                         </h4>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse" style="height: 0px;">
-                                        <div class="panel-body">
+                                        <div class="panel-body"> 
 										<?php
 										$msql = "SELECT * FROM `roombook`";
 										$mre = mysqli_query($con,$msql);
@@ -247,7 +247,7 @@ if(!isset($_SESSION["user"]))
 										while($mrow=mysqli_fetch_array($mre) )
 										{		
 											$br = $mrow['stat'];
-											if($br=="Conform")
+											if($br=="Confirm")
 											{
 												$fid = $mrow['id'];
 												 
@@ -292,7 +292,7 @@ if(!isset($_SESSION["user"]))
 								
 								}
 						
-								?>
+								?> -->
                                 <div class="panel panel-danger">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
