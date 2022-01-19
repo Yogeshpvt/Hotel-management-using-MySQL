@@ -249,7 +249,11 @@ if(!isset($_SESSION["user"]))
 														<label>Select the Confirmation</label>
 														<select name="conf"class="form-control">
 															<option value selected>	</option>
+<<<<<<< HEAD
 															<option value="Confirm">Confirm</option>
+=======
+															<option value="Conform">Confirm</option>
+>>>>>>> 00fb855f9c9e37812ecccc6931063541466d0770
 															
 															
 														</select>
