@@ -1,3 +1,3 @@
 # Hotel Management
-Sem 3 Database and Management Systems Mini Project using PHP and JavaScript
+Database Project to handle and book rooms and foods 
 
